@@ -12,6 +12,6 @@ class Test(TestCase):
         at = AppTest.from_file("./src/app.py")
         at.run()
 
-        assert at.title[0].value.startswith("Streamlit Demo")
+        assert at.title[0].value.startswith("Good Movies")
         assert at.subheader[0].value.startswith("..")
         assert not at.exception
