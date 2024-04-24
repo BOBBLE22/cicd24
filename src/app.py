@@ -11,20 +11,20 @@ from PIL import Image
 
 
 def ui() -> None:
-
     st.title("Good Movies Demo on Streamlit")
     st.subheader(".. Almost on Azure")
 
 ui()
 
 if __name__ == "__main__":
-    image_path1 = "C:\\Users\\awbie\\OneDrive\\Pictures\\movie\\Hitchhikers_guide_to_the_galaxy.jpg"
+    #image_path1 = "C:\\Users\\awbie\\OneDrive\\Pictures\\movie\\Hitchhikers_guide_to_the_galaxy.jpg"
+    image_path1 = "C:\\Users\\awbie\\Visual Studio Code Projects\\CS399_Module8_Homework\\cicd24\\images\\Hitchhikers_guide_to_the_galaxy.jpg"
     image1 = Image.open(image_path1)
     
-    image_path2 = "C:\\Users\\awbie\\OneDrive\\Pictures\\movie\\Aliens_poster.jpg"
+    image_path2 = "C:\\Users\\awbie\\Visual Studio Code Projects\\CS399_Module8_Homework\\cicd24\\images\\Aliens_poster.jpg"
     image2 = Image.open(image_path2)
     
-    image_path3 = "C:\\Users\\awbie\\OneDrive\\Pictures\\movie\\Spaceballs.jpg"
+    image_path3 = "C:\\Users\\awbie\Visual Studio Code Projects\\CS399_Module8_Homework\\cicd24\\images\\Spaceballs.jpg"
     image3 = Image.open(image_path3)
     
 
