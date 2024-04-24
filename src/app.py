@@ -17,7 +17,6 @@ def ui() -> None:
 ui()
 
 if __name__ == "__main__":
-    #image_path1 = "C:\\Users\\awbie\\OneDrive\\Pictures\\movie\\Hitchhikers_guide_to_the_galaxy.jpg"
     image_path1 = "C:\\Users\\awbie\\Visual Studio Code Projects\\CS399_Module8_Homework\\cicd24\\images\\Hitchhikers_guide_to_the_galaxy.jpg"
     image1 = Image.open(image_path1)
     
